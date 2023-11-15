@@ -4417,7 +4417,11 @@ export interface Locale extends ILocale {
     /**
      * データセーバー
      */
-    "dataSaver": string;
+		"dataSaver": string;
+    /**
+     * 雪を降らせる
+     */
+		"snowMode": string;
     /**
      * アカウントの移行
      */
