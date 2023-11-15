@@ -25,6 +25,7 @@ import MkPageHeader from './global/MkPageHeader.vue';
 import MkSpacer from './global/MkSpacer.vue';
 import MkFooterSpacer from './global/MkFooterSpacer.vue';
 import MkStickyContainer from './global/MkStickyContainer.vue';
+import SMSnow from './sidemisskey/SMSnow.vue';
 
 export default function(app: App) {
 	for (const [key, value] of Object.entries(components)) {
@@ -53,6 +54,7 @@ export const components = {
 	MkSpacer: MkSpacer,
 	MkFooterSpacer: MkFooterSpacer,
 	MkStickyContainer: MkStickyContainer,
+	SMSnow: SMSnow,
 };
 
 declare module '@vue/runtime-core' {
@@ -77,5 +79,6 @@ declare module '@vue/runtime-core' {
 		MkSpacer: typeof MkSpacer;
 		MkFooterSpacer: typeof MkFooterSpacer;
 		MkStickyContainer: typeof MkStickyContainer;
+		SMSnow: typeof SMSnow;
 	}
 }

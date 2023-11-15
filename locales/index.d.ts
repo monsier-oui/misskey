@@ -1039,6 +1039,7 @@ export interface Locale {
     "video": string;
     "videos": string;
     "dataSaver": string;
+    "snowMode": string;
     "accountMigration": string;
     "accountMoved": string;
     "accountMovedShort": string;
